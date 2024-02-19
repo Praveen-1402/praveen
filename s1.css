@@ -1,0 +1,71 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    background-image: url("p1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+nav{
+    width: 100%;
+    background-color: aqua;
+    height: 50px;
+    list-style:70px;
+    padding: 0px 100px;
+}
+nav h1{
+    font-size: 35px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: blue;
+    text-transform: uppercase;
+    float: left;
+}
+nav ul{
+    float: right;
+}
+nav ul li{
+    float: left;
+    list-style: none;
+    position: relative;
+}
+nav ul li a{
+    text-decoration: none;
+    font-family: sans-serif;
+    color: darkolivegreen;
+    font-size: 17px;
+    padding: 0px 16px;
+    display: block;
+}
+nav ul li ul{
+    position: absolute;
+    display: none;
+    background-color: burlywood;
+    border-radius: 0px 0px 5px 5px;
+}
+nav ul li ul li{
+    line-height:5;
+    width: 100px;
+    border-radius: 10px;
+    padding: 5px;
+}
+nav ul li ul li{
+    line-height: 2;
+    width: 150px;
+    border-radius: 10px;
+    padding: 5px;
+}
+nav ul li ul li a{
+    padding: 5px 10px;
+}
+nav ul li ul li a:hover{
+    background-color: cadetblue;
+}
+nav ul li a:hover{
+    background-color: beige;
+}
+nav ul li:hover ul{
+    display:block;
+}
